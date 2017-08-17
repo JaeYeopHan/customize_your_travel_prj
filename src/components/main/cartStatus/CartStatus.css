@@ -1,0 +1,23 @@
+.cyt_selected_spots {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  z-index: 200;
+  text-align: center;
+}
+
+.cyt_selected_spot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.cyt_selected_spot_count {
+  display: inline-block;
+  height: 20px;
+  vertical-align: middle;
+	font-size: 14px;
+	color: gray;
+}

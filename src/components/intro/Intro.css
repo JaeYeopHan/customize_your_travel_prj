@@ -1,0 +1,96 @@
+.cyt_section_intro_background {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../assets/image/intro_page_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+	background-position: center;
+}
+
+.cyt_section_1_header {
+  padding: 54px;
+  color: white;
+  font-weight: bolder;
+}
+
+.cyt_region_lists {
+  margin: auto;
+  padding: 0px 48px;
+  text-align: center;
+}
+
+.cyt_region_list {
+  display: inline-block;
+  width: 42px;
+  margin: 6px 4px;
+  padding: 8px 18px;
+  border: 1px solid #fff;
+  border-radius: 24px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.cyt_region_input_area {
+  margin: auto;
+  text-align: center;
+}
+
+.cyt_course_name_input_area {
+	margin: auto;
+  margin-top: 48px;
+  width: calc(100% - 120px);
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+	font-size: 21px;
+	opacity: 0.8;
+  user-select: none;
+}
+
+.cyt_course_name_input_area:-ms-input-placeholder {
+  color: #fff !important;
+}
+
+.cyt_course_name_input_area::-webkit-input-placeholder {
+  color: #fff !important;
+}
+
+.cyt_course_name_input_area::-moz-placeholder {
+  color: #fff !important;
+}
+
+.cyt_course_name_input_area:placeholder {
+  color: #fff !important;
+}
+
+.btn_intro_submit {
+  margin: 64px auto;
+  padding: 16px 48px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 36px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.cyt_text_styling {
+  text-shadow: 0 0 1px rgba(0, 0, 0, 1);
+  -moz-text-shadow: 0 0 0px #000;
+  -webkit-text-shadow: 0 0 0px #000;
+}
+
+.region_clicked {
+	color: #000;
+	background-color: #fff;
+}
+
+.cyt_nav_cancel_btn {
+	float: right;
+	margin: 24px;
+	padding: 12px;
+	color: #fff;
+	font-size: 26px;
+	border: none;
+	background-color: transparent;
+}

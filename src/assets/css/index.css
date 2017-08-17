@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  min-height: 100%;
+  min-width: 320px;
+}
+
+.cyt_container {
+  width: 100%;
+  height: 100%;
+}
+
+.cyt_section_container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.swal2-title {
+	font-size: 24px !important;
+}
+
+.swal2-content {
+	font-size: 16px !important;
+}
+
+.swal2-shown {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.swal2-modal {
+	width: calc(100% - 16px) !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.swal2-container {
+	z-index: 99999 !important;
+}
+
+.show_spot_info_btn {
+	margin-top: -2px;
+  border-radius: 50%;
+	cursor: pointer;
+}
+
+.show_spot_info_add_btn {
+	margin-right: 10px;
+	padding: 12px 14px;
+  border: 3px solid #548235;;
+  background-color: #fff;
+	color: #548235;
+}
+
+.show_spot_info_cancel_btn {
+	padding: 10px 14px;
+	border: 3px solid #fff;
+	background-color: transparent;
+	color: #fff;
+}
+
+.last_item_bottom {
+	margin-top: 200px;
+}

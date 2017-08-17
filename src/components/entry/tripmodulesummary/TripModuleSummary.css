@@ -1,0 +1,140 @@
+.module_dsc_lists {
+	margin: auto;
+	width: calc(100% - 40px);
+	overflow: hidden;
+	transition: all 0.5s;
+}
+
+.cyt_trip_module {
+	margin-top: 16px;
+	height: 116px;
+	background-color: #fff;
+}
+
+.module_dsc_lists_height_1 {
+	height: 105px;
+}
+
+.module_dsc_lists_height_2 {
+	height: 205px;
+}
+
+.module_dsc_lists_height_3 {
+	height: 305px;
+}
+
+.module_dsc_lists_height_4 {
+	height: 405px;
+}
+
+.module_dsc_lists_height_5 {
+	height: 505px;
+}
+
+.cyt_trip_module_list_summary {
+	border-left: 5px solid #548235;
+	height: 80px;
+}
+
+.cyt_trip_module_header {
+	height: 44px;
+}
+
+.cyt_trip_module_title {
+	float: left;
+	font-size: 18px;
+	font-weight: bolder;
+	margin: 15px 0px 9px 24px;
+	width: calc(100% - 66px);
+	font-family: "NanumBarunGothic";
+	overflow: hidden;
+	text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cyt_trip_module_btns {
+	float: right;
+	padding: 12px;
+	width: 18px;
+	height: 20px;
+	color: #666;
+}
+
+.cyt_trip_module_btns .fa {
+	font-size: 19px;
+}
+
+.cyt_trip_module_sub {
+	margin: 4px auto 12px auto;
+	width: calc(100% - 50px);
+	vertical-align: middle;
+}
+
+.cyt_trip_module_sub_info {
+	display: inline-block;
+	margin-right: 4px;
+	padding: 2px 8px;
+	border-radius: 16px;
+	font-weight: bolder;
+	font-size: 12px;
+	vertical-align: middle;
+	font-family: "NanumBarunGothic";
+}
+
+.cyt_trip_module_sub_info_region {
+	color: orange;
+	border: 2px solid orange;
+}
+
+.cyt_trip_module_sub_info_day_1 {
+	color: #28a1ff;
+	border: 2px solid #28a1ff;
+}
+
+.cyt_trip_module_sub_info_day_2 {
+	color: #918A3d;
+	border: 2px solid #918A3d;
+}
+
+.cyt_trip_module_sub_info_day_3 {
+	color: #913D3D;
+	border: 2px solid #913D3D;
+}
+
+.cyt_trip_module_sub_info_day_4 {
+	color: #0CBF18;
+	border: 2px solid #0CBF18;
+}
+
+.cyt_trip_module_sub_info_day_5 {
+	color: #735E8F;
+	border: 2px solid #735E8F;
+}
+
+.cyt_trip_module_sub_info_count {
+	color: #666;
+	border: 2px solid #666;
+}
+
+.cyt_trip_module_tag_info {
+  overflow: hidden;
+	display: block;
+	margin: auto;
+	width: calc(100% - 50px);
+	height: 20px;
+	text-align: left;
+  font-size: 14px;
+	color: #666;
+}
+
+.cyt_trip_module_tag_info span {
+  display: inline-block;
+  color: #666;
+  padding: 0 2px;
+  background-color: #f1f1f2;
+}
+
+
+.module_dsc_unvisible {
+	height: 0;
+}

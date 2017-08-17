@@ -1,0 +1,15 @@
+.cyt_control_notice {
+	position: absolute;
+	top: 90px;
+	margin: 4px auto;
+	width: 100%;
+	text-align: center;
+	font-size: 11px;
+	color: #666;
+	font-family: "NanumBarunGothic";
+}
+
+.cyt_control_notice .fa {
+	padding-right: 2px;
+	font-size: 14px;
+}

@@ -1,0 +1,75 @@
+.cyt_section_meta {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 200;
+}
+
+.cyt_section_header {
+  padding: 12px;
+  background-color: #32622d;
+  color: #d9d9d9;
+  font-size: 14px;
+}
+
+.cyt_section_navigation {
+  height: 40px;
+  background-color: #548235;
+  color: #f0f2e4;
+  border-bottom: 4px solid #d9d9d9;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.cyt_section_navigation_direction {
+  padding: 10px;
+  list-style: none;
+}
+
+.cyt_section_navigation_direction .fa {
+  padding: 0px 6px;
+}
+
+.cyt_section_navigation_direction_prev {
+  float: left;
+}
+
+.cyt_section_navigation_direction_next {
+  float: right;
+}
+
+.btn-common {
+	padding: 12px 16px;
+	border: none;
+	color: #fff;
+	border-radius: 8px;
+}
+
+.btn-success {
+	margin-right: 8px;
+	background-color: #5CB85C;
+}
+
+.btn-danger {
+	background-color: #D9534F;
+}
+
+.btn-complete {
+	margin-right: 8px;
+	background-color: #4A8BF5;
+}
+
+.btn-cancel {
+	background-color: #444444;
+}
+
+.cyt_section_nav_cancel_btn {
+	float: right;
+	margin-right: 12px;
+	padding: 10px;
+	color: #fff;
+	font-size: 24px;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}

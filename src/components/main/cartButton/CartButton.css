@@ -1,0 +1,17 @@
+.cyt_add_course_btn {
+  position: absolute;
+  bottom: 330px;
+  right: 16px;
+  padding: 12px 14px;
+  border: 3px solid #548235;;
+  border-radius: 50%;
+  z-index: 200;
+  background-color: #fff;
+	color: #548235;
+	cursor: pointer;
+}
+
+.clicked {
+	color: #fff;
+  background-color: #548235;
+}

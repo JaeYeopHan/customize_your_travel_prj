@@ -1,0 +1,21 @@
+.cyt_totop_btn_area {
+	display: block;
+	width: 100%;
+	margin-top: 48px;
+	text-align: center;
+}
+
+.cyt_totop_btn {
+	display: inline-block;
+	padding: 4px 13px;
+	border: 1px solid #666;
+	border-radius: 16px;
+	font-size: 12px;
+	color: #666;
+	background-color: #fff;
+	vertical-align: middle;
+}
+
+.cyt_totop_btn_area .fa {
+	padding-right: 3px;
+}

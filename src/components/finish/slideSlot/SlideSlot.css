@@ -1,0 +1,96 @@
+.cyt_slot {
+	width: 100%;
+}
+
+.cyt_slot_day {
+	position: relative;
+	bottom: 156px;
+	left: calc(100% - 216px);
+	border-radius: 50%;
+	padding: 12px 10px;
+	font-size: 11px;
+	opacity: 0.8;
+	color: #fff;
+}
+
+.cyt_slot_day_1 {
+	background-color: #28a1ff;
+}
+
+.cyt_slot_day_2 {
+	background-color: #918A3d;
+}
+
+.cyt_slot_day_3 {
+	background-color: #913D3D;
+}
+
+.cyt_slot_day_4 {
+	background-color: #579164;
+}
+
+.cyt_slot_day_5 {
+	background-color: #735E8F;
+}
+
+.cyt_slot_image {
+	margin: auto;
+	margin-bottom: 20px;
+	max-width: 375px;
+	height: 180px;
+	text-align: center;
+}
+
+.cyt_slot_image > img {
+	width: 100%;
+	height: 100%;
+}
+
+.cyt_slot > .area_bx {
+	float: left;
+	max-width: 100%;
+}
+
+.cyt_slot .area_name {
+	margin-right: 10px;
+	overflow: hidden;
+  padding-top: 1px;
+  font-size: 17px;
+  font-weight: normal;
+  text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: bold;
+}
+
+.cyt_slot_description {
+	margin: auto;
+	width: calc(100% - 44px);
+	overflow: hidden;
+}
+
+.cyt_slot_description .sub_info {
+	display: inline-block;
+	color: #8f8f8f;
+	vertical-align: middle;
+	font-size: 14px;
+}
+
+.cyt_slot_description .txt {
+	padding-right: 10px;
+	margin-right: 10px;
+	border-right: 1px solid gray;
+}
+
+.cyt_slot_description .region_detail .adt_text {
+  overflow: hidden;
+  padding-top: 4px;
+  font-size: 15px;
+  color: #559bfa;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  clear: both;
+}
+
+.eg-flick-container {
+	z-index: 0 !important;
+}

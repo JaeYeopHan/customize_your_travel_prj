@@ -1,0 +1,72 @@
+{
+  "name": "CYT",
+  "version": "1.0.0",
+  "description": "It is a module that can make my own travel course based on Naver Map API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-register test/**/*.js --recursive",
+    "test:watch": "mocha --require babel-register test/**/*.js --recursive --watch",
+    "karma": "karma start",
+    "start": "webpack-dev-server --open",
+    "dev": "webpack-dev-server --env.dev",
+		"build": "webpack",
+		"deploy": "npm run build && firebase deploy",
+    "docs": "rmdir /S docs & jsdoc -c jsdoc.json",
+    "fake:data-server": "json-server --watch spot_db.json --port 3000",
+    "fake:core-server": "json-server --watch core_db.json --port 3001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://oss.navercorp.com/jbee-han/final_project_CYT.git"
+  },
+  "keywords": [
+    "travel",
+    "course",
+    "customize"
+  ],
+  "author": "Jbee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://oss.navercorp.com/jbee-han/final_project_CYT/issues"
+  },
+  "homepage": "",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.24.1",
+    "chai": "^3.5.0",
+    "css-loader": "^0.28.1",
+    "eslint": "^4.2.0",
+    "eslint-config-naver": "^1.0.0",
+    "eslint-loader": "^1.9.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.2",
+    "handlebars": "^4.0.10",
+    "handlebars-loader": "^1.5.0",
+    "html-webpack-plugin": "^2.29.0",
+    "img-loader": "^2.0.0",
+    "ink-docstrap": "^1.3.0",
+    "jsdoc": "^3.5.3",
+    "json-server": "^0.11.2",
+    "karma": "^1.7.0",
+    "karma-babel-preprocessor": "^6.0.1",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.3",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^2.0.4",
+    "loglevel": "^1.4.1",
+    "mocha": "^3.2.0",
+    "page": "^1.7.1",
+    "sortablejs": "^1.6.0",
+    "style-loader": "^0.17.0",
+    "sweetalert2": "^6.6.6",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.2.0",
+    "webpack-dev-server": "^2.5.1",
+    "webpack-merge": "^4.1.0"
+  }
+}

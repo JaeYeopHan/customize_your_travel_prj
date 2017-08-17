@@ -1,0 +1,51 @@
+.map_marker {
+	position: absolute;
+  width: 1px;
+  height: 1px;
+}
+
+.map_marker .ico_pin {
+	position: absolute;
+	bottom: -1px;
+	left: -11px;
+  width: 20px;
+  height: 30px;
+  overflow: hidden;
+	background-size: 20px 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: top;
+  z-index: 200;
+}
+
+.icon_type_0 {
+	background-image: url("../../../assets/image/icon_type_0.png");
+}
+
+.icon_type_1 {
+	background-image: url("../../../assets/image/icon_type_1.png");
+}
+
+.icon_type_2 {
+	background-image: url("../../../assets/image/icon_type_2.png");
+}
+
+.icon_type_3 {
+	background-image: url("../../../assets/image/icon_type_3.png");
+}
+
+.icon_type_4 {
+	background-image: url("../../../assets/image/icon_type_4.png");
+}
+
+.icon_type_5 {
+	background-image: url("../../../assets/image/icon_type_5.png");
+}
+
+.icon_clicked {
+	width: 32px !important;
+  height: 48px !important;
+	background-size: 32px 48px !important;
+	left: -16px !important;
+}

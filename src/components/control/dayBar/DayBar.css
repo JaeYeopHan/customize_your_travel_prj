@@ -1,0 +1,72 @@
+.cyt_day_bar {
+	margin: 12px auto 2px auto;
+	padding: 10px;
+	width: calc(100% - 44px);
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	box-shadow: 2px 2px #8f8f8f;
+	background-color: #E2F0D9;
+	border: none;
+	white-space: nowrap;
+	font-weight: bolder;
+	opacity: 0.8;
+	transition: all 0.3s;
+}
+
+.cyt_day_bar_1 {
+	background-color: #28a1ff;
+}
+
+.cyt_day_bar_2 {
+	background-color: #918A3d;
+}
+
+.cyt_day_bar_3 {
+	background-color: #913D3D;
+}
+
+.cyt_day_bar_4 {
+	background-color: #579164;
+}
+
+.cyt_day_bar_5 {
+	background-color: #735E8F;
+}
+
+.cyt_day_bar_txt {
+	padding-left: 15px;
+	font-size: 16px;
+	color: #2B2B2B;
+}
+
+.first_daybar_invisible {
+	display: none;
+}
+
+.cyt_day_bar_btn {
+	float: right;
+	position: relative;
+	color: #2B2B2B;
+	opacity: 0.7
+}
+
+.cyt_daybar_del_btn {
+	right: 10px;
+}
+
+.cyt_cartItem_map_btn {
+	right: 26px;
+}
+
+.cyt_day_bar_1 > .cyt_cartItem_map_btn {
+	right: 46px;
+}
+
+.cyt_cartItem_map_btn .fa {
+	font-size: 20px;
+}
+
+.cyt_day_descriptor {
+	margin: auto;
+	margin-bottom: 4px;
+	transition: all 0.3s;
+}

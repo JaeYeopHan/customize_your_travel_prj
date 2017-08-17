@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>CYT Class: Map</title>
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link type="text/css" rel="stylesheet" href="styles/sunlight.default.css">
+
+	<link type="text/css" rel="stylesheet" href="styles/site.cosmo.css">
+
+</head>
+
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top ">
+<div class="container">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="index.html">CYT</a>
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#topNavigation">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+        </button>
+	</div>
+	<div class="navbar-collapse collapse" id="topNavigation">
+		<ul class="nav navbar-nav">
+			
+			<li class="dropdown">
+				<a href="classes.list.html" class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="AppManager.html">AppManager</a></li><li><a href="AppStore.html">AppStore</a></li><li><a href="CartButton.html">CartButton</a></li><li><a href="CartItem.html">CartItem</a></li><li><a href="CartList.html">CartList</a></li><li><a href="CartNav.html">CartNav</a></li><li><a href="CartStatus.html">CartStatus</a></li><li><a href="Common.html">Common</a></li><li><a href="ControlContainer.html">ControlContainer</a></li><li><a href="ControlStore.html">ControlStore</a></li><li><a href="CourseItem.html">CourseItem</a></li><li><a href="Courses.html">Courses</a></li><li><a href="CourseTitle.html">CourseTitle</a></li><li><a href="CourseTypeSelector.html">CourseTypeSelector</a></li><li><a href="CreateBtn.html">CreateBtn</a></li><li><a href="DayBar.html">DayBar</a></li><li><a href="DayButton.html">DayButton</a></li><li><a href="DetailViewContainer.html">DetailViewContainer</a></li><li><a href="DetailViewHeader.html">DetailViewHeader</a></li><li><a href="DetailViewStore.html">DetailViewStore</a></li><li><a href="EmptyCart.html">EmptyCart</a></li><li><a href="EmptySlot.html">EmptySlot</a></li><li><a href="EntryContainer.html">EntryContainer</a></li><li><a href="EntryStore.html">EntryStore</a></li><li><a href="FinishContainer.html">FinishContainer</a></li><li><a href="FinishStore.html">FinishStore</a></li><li><a href="Header.html">Header</a></li><li><a href="Intro.html">Intro</a></li><li><a href="IntroContainer.html">IntroContainer</a></li><li><a href="IntroStore.html">IntroStore</a></li><li><a href="MainContainer.html">MainContainer</a></li><li><a href="MainStore.html">MainStore</a></li><li><a href="Map.html">Map</a></li><li><a href="MapButtons.html">MapButtons</a></li><li><a href="MapWrapper.html">MapWrapper</a></li><li><a href="Marker.html">Marker</a></li><li><a href="Notice.html">Notice</a></li><li><a href="Polyline.html">Polyline</a></li><li><a href="PureComponent.html">PureComponent</a></li><li><a href="SelectorWrapper.html">SelectorWrapper</a></li><li><a href="SlideList.html">SlideList</a></li><li><a href="SlideSlot.html">SlideSlot</a></li><li><a href="Spot.html">Spot</a></li><li><a href="Spots.html">Spots</a></li><li><a href="State.html">State</a></li><li><a href="Store.html">Store</a></li><li><a href="ToTopButton.html">ToTopButton</a></li><li><a href="TripModuleBtn.html">TripModuleBtn</a></li><li><a href="TripModuleDescription.html">TripModuleDescription</a></li><li><a href="TripModuleList.html">TripModuleList</a></li><li><a href="TripModuleMain.html">TripModuleMain</a></li><li><a href="TripModuleSummary.html">TripModuleSummary</a></li>
+				</ul>
+			</li>
+			
+		</ul>
+        
+	</div>
+
+</div>
+</div>
+
+
+<div class="container" id="toc-content">
+<div class="row">
+
+	
+	<div class="col-md-8">
+	
+		<div id="main">
+			
+
+	<h1 class="page-title">Class: Map</h1>
+<section>
+
+<header>
+    
+        <h2>
+        Map
+        </h2>
+        
+            <div class="class-description"><p>Component for render map from naver.maps API</p></div>
+        
+    
+</header>
+
+
+<article>
+    <div class="container-overview">
+    
+        
+<hr>
+<dt>
+    <h4 class="name" id="Map"><span class="type-signature"></span>new Map(root, Initial)</h4>
+    
+    
+</dt>
+<dd>
+
+    
+
+    
+
+    
+
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>root</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">HTMLElement</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>The root element for which the component will be rendered.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>Initial</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">naver.maps.LatLng</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>position</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dd>
+
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        <dl>
+            
+<hr>
+<dt>
+    <h4 class="name" id="panTo"><span class="type-signature"></span>panTo(pos)</h4>
+    
+    
+</dt>
+<dd>
+
+    
+
+    
+
+    
+
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>pos</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">naver.maps.LatLng</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt>
+    <h4 class="name" id="setZoom"><span class="type-signature"></span>setZoom(val)</h4>
+    
+    
+</dt>
+<dd>
+
+    
+
+    
+
+    
+
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>val</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dd>
+
+        </dl>
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+
+	
+		<div class="col-md-3">
+			<div id="toc" class="col-md-3 hidden-xs hidden-sm hidden-md"></div>
+		</div>
+	
+
+</div>
+</div>
+
+
+
+<footer>
+
+	Customize Your Travel project
+
+
+<span class="jsdoc-message">
+	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.3</a>
+	
+		on 2017-08-16T11:47:09+09:00
+	
+	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
+</span>
+</footer>
+
+<script src="scripts/docstrap.lib.js"></script>
+<script src="scripts/toc.js"></script>
+
+
+<script>
+$( function () {
+	$( "[id*='$']" ).each( function () {
+		var $this = $( this );
+
+		$this.attr( "id", $this.attr( "id" ).replace( "$", "__" ) );
+	} );
+
+	$( ".tutorial-section pre, .readme-section pre, pre.prettyprint.source" ).each( function () {
+		var $this = $( this );
+
+		var example = $this.find( "code" );
+		exampleText = example.html();
+		var lang = /{@lang (.*?)}/.exec( exampleText );
+		if ( lang && lang[1] ) {
+			exampleText = exampleText.replace( lang[0], "" );
+			example.html( exampleText );
+			lang = lang[1];
+		} else {
+			var langClassMatch = example.parent()[0].className.match(/lang\-(\S+)/);
+			lang = langClassMatch ? langClassMatch[1] : "javascript";
+		}
+
+		if ( lang ) {
+
+			$this
+			.addClass( "sunlight-highlight-" + lang )
+			.addClass( "linenums" )
+			.html( example.html() );
+
+		}
+	} );
+
+	Sunlight.highlightAll( {
+		lineNumbers : true,
+		showMenu : true,
+		enableDoclinks : true
+	} );
+
+	$.catchAnchorLinks( {
+        navbarOffset: 10
+	} );
+	$( "#toc" ).toc( {
+		anchorName  : function ( i, heading, prefix ) {
+			return $( heading ).attr( "id" ) || ( prefix + i );
+		},
+		selectors   : "#toc-content h1,#toc-content h2,#toc-content h3,#toc-content h4",
+		showAndHide : false,
+		smoothScrolling: true
+	} );
+
+	$( "#main span[id^='toc']" ).addClass( "toc-shim" );
+	$( '.dropdown-toggle' ).dropdown();
+
+    $( "table" ).each( function () {
+      var $this = $( this );
+      $this.addClass('table');
+    } );
+
+} );
+</script>
+
+
+
+<!--Navigation and Symbol Display-->
+
+
+<!--Google Analytics-->
+
+
+
+
+</body>
+</html>

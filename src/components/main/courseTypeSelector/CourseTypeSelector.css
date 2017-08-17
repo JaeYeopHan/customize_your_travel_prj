@@ -1,0 +1,27 @@
+.cyt_select_type_lists {
+  position: absolute;
+  bottom: 280px;
+  margin: auto;
+  width: 100%;
+  z-index: 200;
+  text-align: center;
+}
+
+.cyt_select_type {
+  display: inline-block;
+  margin: 4px 4px;
+  padding: 5px 18px;
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 24px;
+  color: gray;
+  font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.selected {
+	border: 2px solid green;
+	color: green;
+  font-weight: bolder;
+}

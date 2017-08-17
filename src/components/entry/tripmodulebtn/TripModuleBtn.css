@@ -1,0 +1,17 @@
+.cyt_module_btn {
+	padding: 6px;
+	text-align: center;
+	border-top: 1px dashed #E9ECEF;
+	border-bottom: 3px solid #548235;
+	font-family: "NanumBarunGothic";
+	color: #666;
+	background-color: #fff;
+}
+
+.cyt_module_btn_txt {
+	font-size: 14px;
+}
+
+.cyt_module_btn_unvisible {
+	display: none; 
+}

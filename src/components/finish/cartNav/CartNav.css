@@ -1,0 +1,37 @@
+.cyt_cart_nav {
+	position: absolute;
+	bottom: 34px;
+	width: 100%;
+	text-align: center;
+	height: 26px;
+	background-color: #fff;
+	z-index: 201;
+}
+
+.cyt_cart_nav_symbol {
+	display: inline-block;
+  width: 8px;
+  height: 8px;
+	border-radius: 50%;
+	background-color: #AFAFAF;
+}
+
+.cyt_cart_nav_symbol_day_1 {
+	background-color: #28a1ff;
+}
+
+.cyt_cart_nav_symbol_day_2 {
+	background-color: #918A3d;
+}
+
+.cyt_cart_nav_symbol_day_3 {
+	background-color: #913D3D;
+}
+
+.cyt_cart_nav_symbol_day_4 {
+	background-color: #579164;
+}
+
+.cyt_cart_nav_symbol_day_5 {
+	background-color: #735E8F;
+}

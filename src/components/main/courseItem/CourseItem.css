@@ -1,0 +1,131 @@
+.course_list_layer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 20000;
+  bottom: 0px;
+}
+.course_list_layer .region_detail {
+  overflow: hidden;
+  padding-left: 15px;
+  line-height: 20px;
+}
+.course_list_layer .gr_layer_card {
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+.course_list_layer .gr_layer_card .attraction_img {
+  position: relative;
+  display: block;
+  float: left;
+  width: 69px;
+  height: 69px;
+}
+.course_list_layer .gr_layer_card .attraction_img:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 1px solid #000;
+  opacity: .04;
+  content: '';
+}
+.course_list_layer .gr_layer_card .adt_text {
+  overflow: hidden;
+  padding-top: 4px;
+  font-size: 15px;
+  color: #559bfa;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+	clear: both;
+}
+.course_list_layer .gr_layer_card .pst_text {
+  overflow: hidden;
+  padding-top: 4px;
+  font-size: 14px;
+  color: #559bfa;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  clear: both;
+}
+.course_list_layer .gr_layer_card .pst_text em {
+  position: relative;
+}
+.course_list_layer .gr_layer_card .pst_text em:after {
+  content: '';
+  overflow: hidden;
+  display: inline-block;
+  width: 1px;
+  height: 13px;
+  vertical-align: middle;
+  background-color: #ecf0f2;
+  margin: -1px 9px 0;
+}
+.course_list_layer .gr_layer_card .area_bx {
+  overflow: hidden;
+  float: left;
+  max-width: 100%;
+}
+.course_list_layer .gr_layer_card .area_bx
+  > .review_info {
+  float: right;
+  font-size: 14px;
+  color: #8f8f8f;
+  margin: 1px 0 0 6px;
+}
+.course_list_layer .gr_layer_card .area_name {
+  overflow: hidden;
+  display: block;
+  padding-top: 1px;
+  font-size: 17px;
+  font-weight: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.course_list_layer .gr_layer_card .sub_info {
+  float: right;
+  margin: 1px 0 0 7px;
+  font-size: 14px;
+  color: #8f8f8f;
+}
+.course_list_layer .gr_layer_card .sub_info .txt
+  + .review_info {
+  margin-left: 4px;
+}
+.course_list_layer .gr_layer_card .sub_info .txt
+  + .review_info:before {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  margin-right: 8px;
+  background-color: #eee;
+  vertical-align: -1px;
+}
+.course_list_layer .gr_layer_card .tag_info {
+  overflow: hidden;
+  display: block;
+  height: 20px;
+  padding-top: 4px;
+  font-size: 14px;
+  color: #666;
+}
+.course_list_layer .gr_layer_card .tag_info a,
+.course_list_layer .gr_layer_card .tag_info span {
+  display: inline-block;
+  color: #666;
+  padding: 0 2px;
+  background-color: #f1f1f2;
+}
+.course_list_layer .gr_layer_card .tag_info.ty2 {
+  padding-top: 2px;
+}
+.course_list_layer .gr_layer_card .inner {
+  overflow: hidden;
+  display: block;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color: #fff;
+}

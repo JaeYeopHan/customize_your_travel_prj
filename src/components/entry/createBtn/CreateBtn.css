@@ -1,0 +1,12 @@
+.cyt_entry_create_btn {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 48px;
+	border: none;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	font-family: "NanumBarunGothic";
+	background-color: #548235;
+}

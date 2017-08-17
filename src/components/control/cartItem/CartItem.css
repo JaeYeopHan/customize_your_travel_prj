@@ -1,0 +1,101 @@
+.cyt_cart_item {
+	margin: 1px auto;
+	width: calc(100% - 24px);
+	height: 64px;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	box-shadow: 2px 2px #8f8f8f;
+	transition: all 0.3s;
+}
+
+.cyt_cart_delete_effect {
+	transform: translateX(130%);
+	opacity: 0;
+}
+
+.cyt_layer_card {
+	float: right;
+	padding: 11px 0px;
+	width: calc(100% - 42px);
+	height: calc(100% - 22px);
+}
+
+.cyt_cart_item > .area_bx {
+	float: left;
+	max-width: 100%;
+}
+
+.cyt_cart_item .area_name {
+	margin-right: 10px;
+	overflow: hidden;
+  padding-top: 1px;
+  font-size: 17px;
+  font-weight: normal;
+  text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: bold;
+}
+
+.cyt_layer_card .sub_info {
+	display: inline-block;
+	color: #8f8f8f;
+	vertical-align: middle;
+	font-size: 14px;
+}
+
+.cyt_layer_card .txt {
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+.cyt_layer_card .adt_text {
+	width: calc(100% - 50px);
+  overflow: hidden;
+  padding-top: 4px;
+  font-size: 15px;
+  color: #559bfa;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  clear: both;
+}
+
+.cyt_layer_card .inner {
+  overflow: hidden;
+  display: block;
+  padding: 2px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color: #fff;
+}
+
+.cyt_cart_item_control {
+	float: left;
+	padding: 21px 14px 0px 17px;
+	color: #666;
+	width: 10px;
+	height: calc(100% - 19px);
+	margin: auto;
+	cursor: move;
+	cursor: -webkit-grabbing;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+.cyt_cart_item_control_btn {
+	font-size: 20px;
+}
+
+.cyt_cartItem_del_btn {
+	float: right;
+	position: relative;
+	bottom: 48px;
+	padding: 12px;
+	color: #2B2B2B;
+	opacity: 0.7
+}
+
+.cyt_daybar_del_btn .fa,
+.cyt_cartItem_map_btn .fa,
+.cyt_cartItem_del_btn .fa {
+	font-size: 24px;
+}

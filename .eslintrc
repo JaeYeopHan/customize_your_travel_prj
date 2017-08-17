@@ -1,0 +1,13 @@
+{
+	"extends": "eslint-config-naver",
+	"rules": {
+		"linebreak-style": 0
+	},
+	"globals": {
+		"naver": true,
+		"describe": true,
+		"it": true,
+		"FB": true,
+		"firebase": true
+	}
+}

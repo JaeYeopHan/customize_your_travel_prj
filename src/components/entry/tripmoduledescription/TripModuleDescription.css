@@ -1,0 +1,56 @@
+.module_dsc_list {
+	display: block;
+	margin: 10px auto;
+	width: 300%;
+	height: 90px;
+	overflow: hidden;
+}
+
+.module_dsc_title {
+	float: left;
+	padding: 34px 18px;
+	opacity: 0.8;
+	color: #fff;
+}
+
+.module_dsc_title_day_1 {
+	background-color: #28a1ff;
+}
+
+.module_dsc_title_day_2 {
+	background-color: #918A3d;
+}
+
+.module_dsc_title_day_3 {
+	background-color: #913D3D;
+}
+
+.module_dsc_title_day_4 {
+	background-color: #579164;
+}
+
+.module_dsc_title_day_5 {
+	background-color: #735E8F;
+}
+
+.module_dsc_pic {
+	float: left;
+	width: 90px;
+	margin: 0px 2px;
+}
+
+.module_dsc_pic_img {
+	width: 90px;
+	height: 88px;
+}
+
+.module_dsc_pic_text {
+	position: relative;
+	top: -20px;
+	left: 4px;
+	padding: 1px 2px;
+	font-size: 13px;
+	background-color: #000;
+	opacity: 0.8;
+	color: #fff;
+}

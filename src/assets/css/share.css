@@ -1,0 +1,11 @@
+.cyt_share_fb_btn {
+	margin: 12px 48px;
+	padding: 12px 24px;
+	background-color: #3B5998;
+	border-radius: 5px;
+	color: #fff
+}
+
+.cyt_share_fb_btn .fa {
+	font-size: 20px;
+}

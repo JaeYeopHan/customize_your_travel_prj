@@ -1,0 +1,23 @@
+<div class="cyt_trip_module">
+	<div class="cyt_trip_module_list_summary" id="cyt_trip_module_detail_btn_{{id}}" data-tripmodule="{{id}}">
+		<div class="cyt_trip_module_header">
+			<header class="cyt_trip_module_title">{{courseName}}</header>
+			<div class="cyt_trip_module_btns">
+				<i class="fa fa-share-alt" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="cyt_trip_module_sub">
+			<span class="cyt_trip_module_sub_info cyt_trip_module_sub_info_region">{{region}}</span>
+			<span class="cyt_trip_module_sub_info cyt_trip_module_sub_info_day_{{lastDay}}">{{subTitle}} 코스</span>
+			<span class="cyt_trip_module_sub_info cyt_trip_module_sub_info_count">경유지 {{countOfSpots}}</span>
+		</div>
+		<span class="cyt_trip_module_tag_info">
+		{{#tags}} 
+			<span class="atc">{{tag}}</span>&nbsp;
+		{{/tags}} 
+		</span>
+	</div>
+</div>
+<div class="cyt_trip_module_description">
+	<ul class="module_dsc_lists module_dsc_lists_height_{{lastDay}} module_dsc_unvisible" id="module_num_{{id}}"></ul>
+</div> 

@@ -1,0 +1,25 @@
+.slide_list_layer {
+	position: absolute;
+	bottom: 50px;
+	width: 100%;
+	background-color: #fff;
+	z-index: 200;
+}
+
+.slide_list_flicking_wrapping {
+	width: 100%;
+}
+
+.slide_list_flicking {
+	display: block;
+	height: 270px;
+	width: 100%;
+}
+
+.cyt_finish_footer {
+	position: absolute;
+	bottom: 0;
+	background-color: #32622D;
+	width: 100%;
+	height: 35px;
+}
